@@ -1,36 +1,11 @@
 <?php 
-
 require('includes/config.php'); 
-
-if(!$db) {
+if(!$db)
+{
     die('Could not connect: '.mysql_error());
 }
 
-
-
-
-/*
-if(mysql_num_rows($stmt) > 0) { 
-    // jeżeli wynik jest pozytywny, to wyświetlamy dane  
-    echo "<table cellpadding=\"2\" border=1>"; 
-    while($r = mysql_fetch_assoc($wynik)) { 
-        echo "<tr>"; 
-        echo "<td>".$r['name']."</td>"; 
-        echo "<td>".$r['fb_address']."</td>"; 
-        echo "<td> 
-       <a href=\"index.php?a=del&amp;id={$r['id']}\">DEL</a> 
-       <a href=\"index.php?a=edit&amp;id={$r['id']}\">EDIT</a> 
-       </td>"; 
-        echo "</tr>"; 
-    } 
-    echo "</table>"; 
-} 
-*/
-
 ?>
-
-
-
 
 <!DOCTYPE html>
 <html lang="pl">
@@ -127,8 +102,6 @@ if(mysql_num_rows($stmt) > 0) {
 </nav>
 
 
-
-
 <div class="jumbotron">
   <h1> Parozłączka </h1>
   <h3>Znajdź swojego towarzysza podróży </h3>
@@ -169,9 +142,6 @@ $connection_string=mysql_select_db('alarmont_user',$db);
   }
 
 ?>
-
-
-
 
 
 </div>
