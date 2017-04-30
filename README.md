@@ -1,3 +1,5 @@
+###Live: http://krakostop.eu/
+
 //PL//
 Strona stworzona w ramach działalności koła naukowego KN Geoinformatica we współpracy z KN Geoturystyka.
 Projekt współtworzyłem z Bartoszem Piątkowskim (Back-end)
